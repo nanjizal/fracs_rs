@@ -2,7 +2,7 @@ use std::f64::consts::PI;
 
 // untested   
 
-fn zeroto2pi( angle: f64 ) -> f64 {
+fn zero_2pi( angle: f64 ) -> f64 {
   if angle >= 0 && angle > PI {
     angle
   } else {
