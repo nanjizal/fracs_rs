@@ -7,11 +7,7 @@ fn zerotoMinus2pi( angle: f64 ) -> f64 {
     angle
   } else {
     let a = angle % ( 2 * PI );
-    let b = if a >= 0 {
-        a
-    } else {
-      a + 2 * PI
-    }
+    let b = if a >= 0 { a } else { a + 2 * PI }
     -( PI*2 - b )
   }
 }
