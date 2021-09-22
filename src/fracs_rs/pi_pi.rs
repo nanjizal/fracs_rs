@@ -4,7 +4,7 @@ use std::f64::consts::PI;
 // let angle = PI/4.;
 // println!("{}",pi_2_pi( angle ) );
 
-fn pi_2_pi( angle: f64 ) -> f64 {
+fn pi_pi( angle: f64 ) -> f64 {
     if angle <= PI && angle > -PI {
         angle 
     } else {
