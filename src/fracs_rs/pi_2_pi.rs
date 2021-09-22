@@ -2,9 +2,9 @@ use std::f64::consts::PI;
 
 // example use
 // let angle = PI/4.;
-// println!("{}",pi2pi( angle ) );
+// println!("{}",pi_2_pi( angle ) );
 
-fn pi2pi( angle: f64 ) -> f64 {
+fn pi_2_pi( angle: f64 ) -> f64 {
     if angle <= PI && angle > -PI {
         angle 
     } else {
